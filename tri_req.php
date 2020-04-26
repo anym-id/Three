@@ -22,7 +22,6 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
   	}
 
 
-
   function request_otp($msisdn,$imei)
   {
     $body = array("msisdn"=>$msisdn);
